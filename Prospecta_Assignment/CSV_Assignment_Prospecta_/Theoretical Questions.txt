@@ -1,0 +1,26 @@
+1. How will you tackle the challenge above?
+
+Understand Requirements: Clarify what needs to be achieved with CSV processing.
+Implement Robust Parsing: Write a method to accurately handle various data types and evaluate formulas.
+Handle Errors Effectively: Ensure proper detection and handling of errors like circular references, invalid data, and division by zero.
+
+Test Thoroughly: Create comprehensive unit tests to cover typical and edge cases.
+
+2. What type of errors would you check for?
+
+Syntax Errors: Incorrectly formatted formulas.
+Circular References: Formulas that reference themselves.
+Division by Zero: Attempts to divide by zero.
+Invalid Data Types: Non-numeric values in arithmetic operations.
+Out-of-Bounds References: References to non-existent cells.
+
+3. How might a user break your code?
+
+Uploading Malformed CSV Files: Incorrect format or structure.
+Creating Circular References: Formulas that loop back to themselves.
+Inputting Invalid Formulas: Unsupported or wrongly formatted formulas.
+Exceeding Resource Limits: Too large files or too complex data.
+Supplying Unexpected Data Types: Using strings where numbers are needed.
+
+
+
